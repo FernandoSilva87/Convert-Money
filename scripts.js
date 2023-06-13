@@ -39,12 +39,12 @@ function changeCurrency(){
 
     if(currencySelect.value == "dolar"){
     currencyName.innerHTML = "Dólar Americano"
-    currencyImage.scr = "./assets/dolar.png"
+    currencyImage.src = "./assets/dolar.png" 
     }
 
     if(currencySelect.value == "euro"){
         currencyName.innerHTML = "Euro"
-        currencyImage.scr = "./assets/euro.png"
+        currencyImage.src = "./assets/euro.png"
     }
 
     convertValues()
