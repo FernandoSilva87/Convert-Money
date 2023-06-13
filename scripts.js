@@ -38,7 +38,7 @@ function convertValues(){
     }
 
     if(currencySelect.value == "bitcoin"){
-        // Se o Select estiver selecionado em LIBRA, entre aqui
+        // Se o Select estiver selecionado em BITCOIN, entre aqui
         currencyValueConverted.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
             currency: "BTC"
